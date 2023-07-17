@@ -1,0 +1,97 @@
+.background {
+	background-image: url(../images/background2.jpg);
+	height: 768px;
+	width: 100%;
+	position: relative;
+	background-position: center;
+}
+.track{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.mcqueen {
+	position: absolute;
+	width: 70px;
+	height: 60px;
+	top: 200px;
+	left: 520px;
+	animation: mcqueen 10s linear 0s;
+}
+@keyframes mcqueen {
+	0% {top: 200px; left: 520px;}
+  	5% {top: 150px; left: 620px;}
+  	25% {top: 150px; left: 1050px;}
+  	31% {top: 250px; left: 1170px;}
+  	38% {top: 350px; left: 1195px;}
+  	44% {top: 430px; left: 1180px;}
+	50% {top: 525px; left: 1100px;}
+	55% {top: 560px; left: 1030px;}
+  	75% {top: 560px; left: 620px;}
+	81% {top: 460px; left: 480px;}
+  	88% {top: 370px; left: 450px;}
+  	94% {top: 280px; left: 460px;}
+  	100% {top: 200px; left: 520px;}
+}
+.mcqueen:hover {
+	width: 200px;
+	height: 200px;
+}
+.mater {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 250px;
+	left: 460px;
+	animation: mater 10s linear 0s;
+}
+@keyframes mater {
+	0% {top: 250px; left: 460px;} 
+	5% {top: 200px; left: 520px;}
+  	10% {top: 150px; left: 620px;}
+  	30% {top: 150px; left: 1050px;}
+  	36% {top: 250px; left: 1170px;}
+  	43% {top: 350px; left: 1195px;}
+  	49% {top: 430px; left: 1180px;}
+	55% {top: 525px; left: 1100px;}
+	60% {top: 560px; left: 1030px;}
+  	80% {top: 560px; left: 620px;}
+	86% {top: 460px; left: 480px;}
+  	93% {top: 370px; left: 450px;}
+  	99% {top: 280px; left: 460px;}
+  	100% {top: 250px; left: 460px;}
+}
+.mater:hover {
+	width: 200px;
+	height: 200px;
+}
+.hudson {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	transform: scale(-1, 1);
+	top: 320px;
+	left: 450px;
+	animation: hudson 10s linear 0s;
+}
+@keyframes hudson {
+	0% {top: 320px; left: 450px;}
+	5% {top: 250px; left: 460px;} 
+	10% {top: 200px; left: 520px;}
+  	15% {top: 150px; left: 620px;}
+  	35% {top: 150px; left: 1050px;}
+  	41% {top: 250px; left: 1170px;}
+  	48% {top: 350px; left: 1195px;}
+  	54% {top: 430px; left: 1180px;}
+	59% {top: 525px; left: 1100px;}
+	65% {top: 560px; left: 1030px;}
+  	85% {top: 560px; left: 620px;}
+	91% {top: 460px; left: 480px;}
+  	98% {top: 370px; left: 450px;}
+  	100% {top: 320px; left: 450px;}
+}
+.hudson:hover {
+	width: 200px;
+	height: 200px;
+}
